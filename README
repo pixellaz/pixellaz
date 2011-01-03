@@ -1,0 +1,15 @@
+Repository for Pixellaz's website
+
+Structure:
+
+-Project Root
+    - README
+    - .gitignore
+    - templates
+    - base files
+
+================
+Version: 0.1
+- Basic facilities
+- Admin CP
+- FlatPages
