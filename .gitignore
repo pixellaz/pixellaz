@@ -30,10 +30,11 @@ Thumbs.db
 
 # Logs and databases #
 ######################
+logs/*
 *.log
 *.sql
 *.sqlite
-
+*.db
 # IDE Files #
 ######################
 .idea/*
