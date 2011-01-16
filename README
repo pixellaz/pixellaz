@@ -1,4 +1,4 @@
-Repository for Pixellaz's website
+A sample project for working with pixelcms. This project is also serving at http://www.pixellaz.com
 
 Structure:
 
@@ -6,10 +6,4 @@ Structure:
     - README
     - .gitignore
     - templates
-    - base files
-
-================
-Version: 0.1
-- Basic facilities
-- Admin CP
-- FlatPages
+    - project files
