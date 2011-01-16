@@ -43,7 +43,7 @@ MIDDLEWARE_CLASSES = (
 
 AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
-	'pixelcms.auth.PersonAuthBackend',
+	#'pixelcms.apps.auth.UserAuthBackend',
 )
 
 SESSION_ENGINE = 'mongoengine.django.sessions'
