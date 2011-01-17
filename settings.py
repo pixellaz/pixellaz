@@ -3,7 +3,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@domain.com'),
+     ('Duy Nguyen', 'coldzero1120@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -18,7 +18,6 @@ USE_I18N = True
 USE_L10N = True
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'static')
 MEDIA_URL = '/static/'
-ADMIN_MEDIA_PREFIX = '/media/'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -58,6 +57,7 @@ TEMPLATE_DIRS = (
 INSTALLED_APPS = (
     'django.contrib.sessions',
 	'pixelcms',
+	'pixeltheme',
 )
 
 LOGIN_URL = '/admin/login/'
@@ -66,4 +66,4 @@ LOGIN_REDIRECT_URL = '/admin/'
 TEST_RUNNER = 'testrunner.run_tests'
 
 PIXELCMS_PIXELCMS_MARKUP_LANGUAGE = 'markdown'
-#PIXELCMS_THEME = 'mytheme'
+PIXELCMS_THEME = 'default'
