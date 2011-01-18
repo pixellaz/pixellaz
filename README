@@ -1,9 +1,0 @@
-A sample project for working with pixelcms. This project is also serving at http://www.pixellaz.com
-
-Structure:
-
--Project Root
-    - README
-    - .gitignore
-    - templates
-    - project files
