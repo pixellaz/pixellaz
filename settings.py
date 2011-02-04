@@ -64,4 +64,4 @@ LOGIN_REDIRECT_URL = '/admin/'
 TEST_RUNNER = 'testrunner.run_tests'
 
 PIXELCMS_PIXELCMS_MARKUP_LANGUAGE = 'markdown'
-PIXELCMS_THEME = 'default'
+PIXELCMS_THEME = 'pixeltheme'
