@@ -29,8 +29,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 	'django.core.context_processors.request',
     'django.core.context_processors.media',
     'pixelcms.context_processors.auth',
-    'pixelcms.context_processors.site_info',
-	'pixelcms.context_processors.site_footer',
 )
 
 MIDDLEWARE_CLASSES = (
