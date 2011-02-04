@@ -58,7 +58,7 @@ INSTALLED_APPS = (
 	'pixeltheme',
 )
 
-LOGIN_URL = '/admin/login/'
+LOGIN_URL = '/account/login/'
 LOGIN_REDIRECT_URL = '/admin/'
 
 TEST_RUNNER = 'testrunner.run_tests'
