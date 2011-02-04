@@ -46,7 +46,3 @@ backup/*
 # Capistrano Files #
 ######################
 config/*
-
-# Symlink Files #
-######################
-pixelcms
